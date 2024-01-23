@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Automata type="DFA">
+    <Alphabets numberOfAlphabets = "2">
+        <alphabet letter = "a"/>
+        <alphabet letter = "b"/>
+    </Alphabets>
+    <States numberOfStates = "2">
+        <state name = "0" />
+        <state name = "1" />
+        <initialState name = "0" />
+        <FinalStates numberOfFinalStates = "1">
+            <finalState name = "1" />
+        </FinalStates>
+    </States>
+    <Transitions numberOfTrans = "3">
+        <transition source = "0" destination = "0" label = "a"/>
+        <transition source = "0" destination = "1" label = "b"/>
+        <transition source = "1" destination = "1" label = "b"/>
+    </Transitions>
+</Automata>
